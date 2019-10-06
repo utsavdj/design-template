@@ -2,6 +2,11 @@
   font-family: Georgia, serif;
 }
 
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
 .logo-searchbar:before, .logo-searchbar:after, .indicators:before, .indicators:after, .topic:before, .topic:after,
 .testimony:before, .testimony:after, .main .contact:before, .main .contact:after, .latest-blog:after,
 .latest-blog:before, .contact-us-col:before, .contact-us-col:after {
