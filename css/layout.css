@@ -1,223 +1,196 @@
 .container {
-    padding: 0 20px;
-    margin: auto;
+  padding: 0 20px;
+  margin: auto;
 }
 
 .header-top:before, .header-top:after, .header-bottom:before, .header-bottom:after,
 .container:after, .container:before, .column-wrapper:after, .column-wrapper:before {
-    content: "";
-    display: table;
+  content: "";
+  display: table;
 }
 
 .header-top:after, .header-bottom:after, .container:after, .column-wrapper:after {
-    clear: both;
+  clear: both;
 }
 
 .header-top, .header-bottom, .container, .column-wrapper {
-    zoom: 1; /*IE 6& 7*/
+  zoom: 1; /*IE 6& 7*/
 }
 
 .header-top {
-    border-bottom: 1px solid #97455f;
+  border-bottom: 1px solid #97455f;
 }
 
 .header-bottom {
-    background-color: #ebebeb;
+  background-color: #ebebeb;
 }
 
 .banner {
-    padding-top: 20px;
-    margin-bottom: 15px;
+  padding-top: 20px;
+  margin-bottom: 15px;
 }
 
 .main {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 .footer {
-    margin-top: 30px;
-    border-top: 5px solid #d2d2d2;
-    background-color: #ebebeb;
+  margin-top: 30px;
+  border-top: 5px solid #d2d2d2;
+  background-color: #ebebeb;
 }
 
 .footer .column-wrapper {
-    padding: 10px 0;
+  padding: 10px 0;
 }
 
 .contact-details-col, .contact-us-col, .latest-blog-col {
-    padding-top: 30px;
-    float: left;
+  padding-top: 30px;
+  float: left;
 }
 
 @media (min-width: 398px) {
 
-    .contact-details-col, .contact-us-col {
-        padding: 0 10px;
-        float: left;
-        width: 46.8871%;
-    }
+  .contact-details-col, .contact-us-col {
+    padding: 0 10px;
+    float: left;
+    width: 46.8871%;
+  }
 
-    .contact-details-col {
-        margin-left: -10px;
-    }
+  .contact-details-col {
+    margin-left: -10px;
+  }
 
-    .contact-us-col {
-        margin-right: -10px;
-    }
+  .contact-us-col {
+    margin-right: -10px;
+  }
 }
 
 @media (min-width: 548px) {
-    .items-col {
-        width: 46.2150%;
-        float: left;
-    }
+  .topic {
+    width: 46.2150%;
+    float: left;
+    padding: 0 10px;
+  }
 
-    .items-col:last-child {
-        width: auto;
-    }
+  .testimony-type-1, .testimony-type-2 {
+    padding: 0 10px;
+    float: left;
+    width: 46.2150%;
+  }
 
-    .items-col:last-child .item {
-        width: 48.2202%;
-        float: left;
-    }
-
-    .items-col:last-child .item:first-child {
-        padding-right: 10px;
-    }
-
-    .items-col:last-child .item:last-child {
-        padding-left: 10px;
-    }
-
-
-    .items-col, .testimony-col {
-        padding: 0 10px;
-        float: left;
-    }
-
-    .testimony-col {
-        padding: 0 10px;
-        float: left;
-        width: 46.2150%;
-    }
-
-    .main .column-wrapper {
-        margin: 0 -10px;
-    }
+  .main .column-wrapper {
+    margin: 0 -10px;
+  }
 }
 
 @media (min-width: 658px) {
-    .latest-blog {
-        width: 46.8676%;
-        float: left;
-        padding: 0 10px;
-    }
+  .latest-blog {
+    width: 46.8676%;
+    float: left;
+    padding: 0 10px;
+  }
 
-    .latest-blog-col .title {
-        padding: 0 10px;
-    }
+  .latest-blog-col .title {
+    padding: 0 10px;
+  }
 
-    .contact-details-col {
-        margin-left: 0;
-    }
+  .contact-details-col {
+    margin-left: 0;
+  }
 
-    .contact-us-col {
-        margin-right: 0;
-    }
+  .contact-us-col {
+    margin-right: 0;
+  }
 
-    .contact-details-col, .contact-us-col {
-        width: 46.8676%;
-    }
+  .contact-details-col, .contact-us-col {
+    width: 46.8676%;
+  }
 
-    .footer-top .column-wrapper {
-        margin: 0 -10px;
-    }
+  .footer-top .column-wrapper {
+    margin: 0 -10px;
+  }
 }
 
 @media (min-width: 768px) {
-    .banner {
-        position: relative;
-    }
+  .banner {
+    position: relative;
+  }
 }
 
-@media (min-width: 1024px) {
-    .column-wrapper {
-        margin: 0 -10px;
-    }
+@media (min-width: 1000px) {
+  .column-wrapper {
+    margin: 0 -10px;
+  }
 
-    .container {
-        padding: 0 20px;
-        width: 60em;
-        margin: auto;
-    }
+  .container {
+    padding: 0 20px;
+    width: 60em;
+    margin: auto;
+  }
 
-    .inner-container {
-        padding: 20px 30px;
-    }
+  .inner-container {
+    padding: 20px 30px;
+  }
 
-    .header-bottom .container {
-        position: relative;
-    }
+  .header-bottom .container {
+    position: relative;
+  }
 
-    .banner {
-        padding-top: 0;
-    }
+  .banner {
+    padding-top: 0;
+  }
 
-    .banner .inner-container {
-        position: relative;
-        z-index: 10;
-        background-color: #ffffff;
-    }
+  .banner .inner-container {
+    position: relative;
+    z-index: 10;
+    background-color: #ffffff;
+  }
 
-    .banner-container {
-        position: relative;
-    }
+  .banner-container {
+    position: relative;
+  }
 
-    .main {
-        padding-top: 0;
-    }
+  .main {
+    padding-top: 0;
+  }
 
-    .items-col, .items-col:last-child {
-        width: 31.1599%;
-    }
+  .topic {
+    width: 31.1599%;
+  }
 
-    .items-col:last-child .item {
-        width: 100%;
-        float: none;
-    }
+  .testimony-type-1, .testimony-type-2 {
+    width: 47.8277%;
+  }
 
-    .testimony-col {
-        width: 47.8277%;
-    }
+  .topics, .testimony-type-1, .testimony-type-2 {
+    margin: 25px 0;
+  }
 
-    .items-col, .testimony-col {
-        margin: 25px 0;
-    }
+  .testimony {
+    margin-top: 30px;
+  }
 
-    .testimony {
-        margin-top: 30px;
-    }
+  .latest-blog {
+    width: auto;
+    float: none;
+    padding: 0;
+  }
 
-    .latest-blog {
-        width: auto;
-        float: none;
-        padding: 0;
-    }
+  .latest-blog-col .title {
+    padding: 0;
+  }
 
-    .latest-blog-col .title {
-        padding: 0;
-    }
+  .latest-blog-col {
+    width: 47%;
+    padding: 0 10px;
+  }
 
-    .latest-blog-col {
-        width: 47%;
-        padding: 0 10px;
-    }
+  .contact-details-col, .contact-us-col {
+    width: 22.6%;
+  }
 
-    .contact-details-col, .contact-us-col {
-        width: 22.6%;
-    }
-
-    .contact-details-col, .contact-us-col, .latest-blog-col {
-        padding-top: 30px;
-    }
+  .contact-details-col, .contact-us-col, .latest-blog-col {
+    padding-top: 30px;
+  }
 }
