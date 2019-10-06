@@ -7,7 +7,7 @@ function Carousel(carouselId, holdTime = 1500, transitionTime = 10) {
   this.slides = this.carousel.getElementsByClassName('slide');
 
   this.setWidthHeight = function () {
-    this.imageWidth = this.carousel.offsetWidth;
+    this.imageWidth = this.carousel.clientWidth;
     for (var i = 0; i < this.carousel.getElementsByTagName('img').length; i++) {
       this.carouselImages[i].style.width = this.imageWidth + 'px';
       this.slides[i].style.width = this.imageWidth + 'px';
