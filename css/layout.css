@@ -27,7 +27,6 @@
 
 .banner {
   padding-top: 20px;
-  margin-bottom: 15px;
 }
 
 .main {
@@ -130,7 +129,7 @@
   }
 
   .inner-container {
-    padding: 20px 30px;
+    padding: 30px;
   }
 
   .header-bottom .container {
