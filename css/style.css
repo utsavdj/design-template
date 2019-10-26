@@ -1,5 +1,6 @@
 * {
   font-family: Georgia, serif;
+  outline-color: #6A3144;
 }
 
 input {
@@ -207,7 +208,7 @@ input {
 }
 
 .search-form input[type="text"] {
-  outline: none;
+  outline-offset: 0;
   height: 33px;
   width: 163px;
   padding: 0 10px;
@@ -219,7 +220,7 @@ input {
 }
 
 .search-form input[type="submit"] {
-  outline: none;
+  outline-offset: 0;
   width: 75px;
   height: 35px;
   border: none;
@@ -367,7 +368,7 @@ input {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 22px;
-  outline: none;
+  outline-offset: 0;
   padding: 11px 10px;
   background-color: #ffffff;
   border: 2px solid #ffffff;
@@ -428,7 +429,7 @@ input {
   font-size: 12px;
   color: #989898;
   border: none;
-  outline: none;
+  outline-offset: 0;
   margin-bottom: 10px;
 }
 
