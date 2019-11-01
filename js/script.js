@@ -35,9 +35,17 @@ if (window.innerWidth >= 1000) {
   searchFormElement.style.display = 'block';
 }
 
+if (window.innerWidth < 1000) {
+  searchFormElement.style.display = 'none';
+}
+
 window.onresize = () => {
   if (window.innerWidth >= 1000) {
     searchFormElement.style.display = 'block';
+  }
+
+  if (window.innerWidth < 1000) {
+    searchFormElement.style.display = 'none';
   }
 };
 
