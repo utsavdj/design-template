@@ -1,5 +1,3 @@
-new Carousel('carousel-1', 3000, 10);
-
 let isMobileMenuClicked = false;
 let isMobileSearchClicked = false;
 let isHeaderToggleButtonClicked = false;
@@ -70,4 +68,6 @@ toggleHeaderButton.onclick = (e) => {
     isHeaderToggleButtonClicked = false;
   }
 };
+
+new Carousel('carousel-1', 3000, 10);
 
