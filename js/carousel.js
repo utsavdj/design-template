@@ -230,6 +230,18 @@ function Carousel(carouselId, holdTime = 1500, transitionTime = 10) {
       this.carousel.getElementsByClassName('next')[0].style.lineHeight = this.carouselWrapperHeight + 'px';
       this.carousel.style.height = this.carouselWrapperHeight + 'px';
     }
+
+    if (window.innerWidth >= 1000) {
+      searchFormElement.style.display = 'block';
+      mobileNavigationMenuElement.style.display = 'block';
+    }
+
+    if (window.innerWidth < 1000) {
+      searchFormElement.style.display = 'none';
+      mobileNavigationMenuElement.style.display = 'none';
+      isMobileMenuClicked = false;
+      isMobileSearchClicked = false;
+    }
   };
 
   window.onresize = function () {
